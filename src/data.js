@@ -34,9 +34,11 @@ export const footerData = {
   //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
   //],
   socialLinks: [
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/ramblinggeekuk' },   
+    { ariaLabel: 'YouTube', icon: 'tabler:brand-youtube', href: 'https://www.youtube.com/@ramblinggeekuk' },
+    { ariaLabel: 'Twitch', icon: 'tabler:brand-twitch', href: 'https://www.twitch.tv/ramblinggeek' },
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/rgeekuk' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/ramblinggeek/' },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/ramblinggeekuk' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `Love your family, work super hard, live your passion.`,
