@@ -2,7 +2,6 @@
 title: "Raspberry Pi Pico Custom U2F firmware"
 publishDate: "2022-11-30"
 author: Wayne
-category: "test"
 tags: 
   - "raspberry"
   - "pico"

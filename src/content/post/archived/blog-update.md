@@ -4,7 +4,6 @@ publishDate: "2022-11-30"
 categories: 
   - "general"
 tags: 
-  - "archived"
   - "life"
 draft: true
 ---
