@@ -1,15 +1,14 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'RamblingGeek',
 
-  origin: 'https://astrowind.vercel.app',
+  origin: 'https://ramblinggeek.dev',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
-  description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+  title: 'I'/'m a geek and I like to ramble',
+  description: 'The personal website of Wayne Taylor aka RamblingGeek',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
@@ -24,7 +23,7 @@ const CONFIG = {
     timeZone: 'UTC',
   }),
 
-  googleAnalyticsId: false, // or "G-XXXXXXXXXX",
+  googleAnalyticsId: "G-7BVHJMW2ZL", // or "G-XXXXXXXXXX",
   googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
 
   blog: {

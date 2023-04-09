@@ -2,6 +2,7 @@
 import { Icon } from 'astro-icon';
 import { Picture } from '@astrojs/image/components';
 
+
 interface CallToAction {
   text: string;
   href: string;
@@ -24,6 +25,7 @@ const {
   callToAction2 = await Astro.slots.render('callToAction2'),
   image = await Astro.slots.render('image'),
 } = Astro.props;
+
 ---
 
 <section class="relative md:-mt-[76px]">
