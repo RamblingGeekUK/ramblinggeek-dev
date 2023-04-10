@@ -8,21 +8,17 @@ import LatestPosts from '~/components/blog/LatestPosts.astro';
 const meta = {
   title: SITE.title,
   description: SITE.description,
-  dontUseTitleTemplate: true,
+  dontUseTitleTemplate: false,
 };
 
 var startYear = new Date(1995,5,9);   // The Date I started working for Parity Computers. 🙂
 var today = new Date();
 var yearsDiff = today.getFullYear() - startYear.getFullYear();
 ---
-
 <Layout {meta}>
-  <!-- Hero Widget ******************* -->
-  
-
   <Hero
-    image={{ src: import('~/assets/images/rg-hero-tp.png'), alt: 'AstroWind Hero Image' }}
-  >
+    image={{ src: import('~/assets/images/hero-raining-tech.svg'), alt: 'Raining Tech' }}
+    >
     <Fragment slot="title">
       Hello, I'm Wayne
     </Fragment>
@@ -34,14 +30,20 @@ var yearsDiff = today.getFullYear() - startYear.getFullYear();
       <br/>
       Recently I moved into a development role.
     </Fragment>
+    
   </Hero>
 
   <!-- HighlightedPosts Widget ******* -->
 
   <LatestPosts
-    title="The most recent posts"
+    title="Latest posts"
     information={``}
-    
-  />
+    postIds={[
+      'get-started-website-with-astro-tailwind-css.md',
+      'how-to-customize-astrowind-to-your-brand.md',
+      'useful-resources-to-create-websites.md',
+      'astrowind-template-in-depth.md',
+    ]}
+    />
 
 </Layout>

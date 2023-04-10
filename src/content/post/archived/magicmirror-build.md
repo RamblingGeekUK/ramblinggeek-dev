@@ -2,10 +2,9 @@
 title: "MagicMirror Build"
 publishDate: "2018-05-05"
 image: "~/assets/images/mmp.jpg"
-categories: 
-  - "general"
 excerpt: "After seeing various people building MagicMirrors, I wanted to build one for myself.  I did this in June 2017. Why post about it now? Well, I fully intended to post about it back then but then, you know, I got busy."
 tags:
+  - "raspberry"
   - "archived"
 ---
 

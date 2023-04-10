@@ -9,7 +9,6 @@ export interface Props {
 const { posts } = Astro.props;
 
 const results = (await Promise.all(posts))
-		.sort((a, b) => new Date(b.publishDate).valueOf() - new Date(a.publishDate).valueOf())
 		.filter((post) => Array.isArray(post.tags) && !post.tags.includes("archived"))
 ---
 
