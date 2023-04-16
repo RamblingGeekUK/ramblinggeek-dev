@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -15,7 +15,7 @@ export const footerData = {
     {
       title: 'Bit\'s n\' bobs',
       links: [
-        { text: 'What I use', href: '#' },
+        { text: 'What I use', href: 'whatiuse' },
         { text: 'About', href: '#' },
       ],
     },

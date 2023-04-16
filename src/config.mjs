@@ -38,7 +38,7 @@ const CONFIG = {
 
     list: {
       pathname: 'blog', // Blog main path, you can change this to "articles" (/articles)
-      noindex: false,
+      noindex: true,
       disabled: false,
     },
 
@@ -51,7 +51,7 @@ const CONFIG = {
     tag: {
       pathname: 'tag', // Tag main path /tag/some-tag
       noindex: true,
-      disabled: false,
+      disabled: true,
     },
   },
 };

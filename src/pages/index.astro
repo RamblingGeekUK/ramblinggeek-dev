@@ -5,6 +5,8 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero2.astro';
 import LatestPosts from '~/components/blog/LatestPosts.astro';
 
+
+
 const meta = {
   title: SITE.title,
   description: SITE.description,
@@ -16,6 +18,9 @@ var today = new Date();
 var yearsDiff = today.getFullYear() - startYear.getFullYear();
 ---
 <Layout {meta}>
+
+
+
   <Hero
     image={{ src: import('~/assets/images/hero-raining-tech.svg'), alt: 'Raining Tech' }}
     >

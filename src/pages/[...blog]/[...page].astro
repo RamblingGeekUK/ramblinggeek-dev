@@ -11,14 +11,21 @@ import { BLOG_BASE } from '~/utils/permalinks';
 
 export async function getStaticPaths({ paginate }) {
   if (BLOG?.disabled || BLOG?.list?.disabled) return [];
+
+
+  
   return paginate(await fetchPosts(), {
     params: { blog: BLOG_BASE || undefined },
     pageSize: BLOG.postsPerPage,
+    tags: BLOG.tag
   });
+
+
 }
 
 const { page } = Astro.props;
 const currentPage = page.currentPage ?? 1;
+
 
 const meta = {
   title: `Blog${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
@@ -30,12 +37,10 @@ const meta = {
 
 <Layout {meta}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
-    <Headline
-      subtitle=""
-    >
+    <Headline>
       Ramblings
     </Headline>
     <BlogList posts={page.data} />
-    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+    <!-- <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} /> -->
   </section>
 </Layout>
