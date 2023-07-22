@@ -13,9 +13,9 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Bit\'s n\' bobs',
+      title: 'Curious',
       links: [
-        { text: 'What I use', href: 'whatiuse' },
+        { text: 'Uses', href: 'whatiuse' },
         { text: 'About', href: '#' },
       ],
     },
@@ -41,5 +41,5 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/ramblinggeek/' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
-  footNote: `It is about the small things.`,
+  footNote: `“Setting goals is the first step in turning the invisible into the visible.” —Tony Robbins`,
 };
