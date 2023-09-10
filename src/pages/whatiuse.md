@@ -3,7 +3,9 @@ title: 'What I Use'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-A collection of items that I use, please note some of the links below are affiliate links.
+A collection of items that I use.
+
+<sup>Please note some of the links below are affiliate links.</sup>
 
 ### PC (Custom Build 2020)
 
@@ -29,12 +31,16 @@ A collection of items that I use, please note some of the links below are affili
 - [Elgato Wave Mic Arm](https://www.elgato.com/uk/en/p/wave-mic-arm)
 - [Keychron Q6 ISO with Knob](https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection)
 - [2020 Audio-Technica 2020](https://amzn.to/43qd71T)
-- [Standing Desk Frame from Amazon](https://amzn.to/3NeYsRF)
 - [Ergotron HX - Arm](https://amzn.to/45PxkzW)
 - [Sony A6400 Camera](https://amzn.to/3oS2rdr)
 - [Sigma 16mm F1.4 DC DN Contemporary Sony E Lens](https://amzn.to/3CdVyq2)
 
-### 3D Printers [^1]
+### Furniture
+
+- [Autonomous Chair](https://www.autonomous.ai/office-chairs/ergonomic-chair) [^1]
+- [Standing Desk Frame from Amazon](https://amzn.to/3NeYsRF)
+
+### 3D Printers [^2]
 
 - [Ender 3 Pro](https://amzn.to/43Oy1HI)
 - [Tronxy 3SA](https://amzn.to/3IZy0Jf)
@@ -43,6 +49,7 @@ A collection of items that I use, please note some of the links below are affili
 ### Home Assistant
 
 - [Raspberry Pi4](https://thepihut.com/products/raspberry-pi-4-model-b)
+- [LocalBytes Smart Plug](https://www.mylocalbytes.com/products/smart-plug-pm)
 - 256Gb SSD
 
 ### Infrastructure
@@ -59,11 +66,16 @@ A collection of items that I use, please note some of the links below are affili
 
 ### Sofware
 
-- [Password Manager : 1Password](https://1password.com) [^2]
+- [Affinity Suite](https://affinity.serif.com/en-gb/)
+- [Camtasia 2023](https://www.techsmith.com/video-editor.html)
+- [Visual Studio](https://visualstudio.microsoft.com/vs/professional/)
+- [VS Code](https://code.visualstudio.com/)
+- [OBS](https://obsproject.com/)
+- [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701)
+- [1Password](https://1password.com) [^3]
 
 
----
-Notes:
-
-[^1]: Each Printer has a Pi4 running OcotoPi, the Pi's will be swapped out for Pi Zero 2's when they are available.
+[^1]: Each printer has a Pi4 running OcotoPi, the Pi's will be swapped out for Pi Zero 2's when they are available.
 [^2]: It was LastPass for a while, I changed about a year before the breach.
+[^3]: I think the chair that I have has been replaced and this one looks the same.
+
