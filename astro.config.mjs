@@ -7,6 +7,7 @@ import image from '@astrojs/image';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import compress from 'astro-compress';
+import netlify from '@astrojs/netlify/functions';
 import { readingTimeRemarkPlugin } from './src/utils/frontmatter.mjs';
 import { SITE } from './src/config.mjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
