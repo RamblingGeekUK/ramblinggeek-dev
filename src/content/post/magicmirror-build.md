@@ -21,7 +21,7 @@ The MagicMirror is made up of a few basic components:-
 
 Also, we need the MagicMirror software, I did consider building my own, I was thinking along the lines of a webpage in full screen, but then I came across the awesome open-source project, [https://magicmirror.builders](https://magicmirror.builders)
 
-![1](src/assets/images/MagicMirror-01.jpg)
+![1](~/assets/images/MagicMirror-01.jpg)
 
 I didn't have a plan but I figured I should get the MagicMirror software up and running on the RaspberryPi first before spending any money.  This is what I did and to my surprise, I did this quickly, I think it took about an hour and that included installing Raspbian onto the SD card, which takes approx. 20mins.
 
@@ -33,19 +33,19 @@ I tried to get a monitor with built-in USB ports, the hope was that I could powe
 
 So the monitor arrived from the seller and I, of course, powered it on to ensure all was in good working order, which it was then I got to work removing the casing from the monitor.
 
-![2](src/assets/images/MagicMirror-02.jpg)
+![2](~/assets/images/MagicMirror-02.jpg)
 
-![3](src/assets/images/MagicMirror-03.jpg)
+![3](~/assets/images/MagicMirror-03.jpg)
 
 This was straightforward. I removed the stand and a few screws and the rest of the case unclipped it didn't really matter if it broke as I wasn't intending to ever put this bezel back on again. With that done it was time to attach the Pi with the MagicMirror software and boot it up and see what it looked like, yes I couldn't wait to see what it looked like.
 
 I did a fair amount of Googling and came to the conclusion that Two Way Acrylic was to be used for the Mirror, this is not glass as it's cheaper and provides the same effect, and there are different transparency levels, I asked them to send me samples so I could try and figure out which would work best, so after choosing and ordering the Acrylic, I moved on to building the frame,  conveniently my Dad is a joiner so I asked him to build a case for the screen. I have seen mirrors in IKEA which could be used. You can see that process in the images below.
 
-![4](src/assets/images/MagicMirror-04.jpg)
+![4](~/assets/images/MagicMirror-04.jpg)
 
-![5](src/assets/images/MagicMirror-05.jpg)
+![5](~/assets/images/MagicMirror-05.jpg)
 
-![6](src/assets/images/MagicMirror-06.jpg)
+![6](~/assets/images/MagicMirror-06.jpg)
 
 At this point, the Mirror is almost done.   It's now just a case of getting the IR passive working.   This was a passive IR sensor connected to RaspberyPI via the GPIO pins and a plugin for the MagicMirror software and this enables/disables the display so that the mirror can come on or wake up as somebody walks up to it.
 
