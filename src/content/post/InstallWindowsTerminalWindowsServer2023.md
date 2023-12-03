@@ -28,4 +28,4 @@ Invoke-WebRequest -Uri https://github.com/microsoft/terminal/releases/download/v
 Add-AppxPackage -Path .\Microsoft.WindowsTerminal_1.7.1091.0_8wekyb3d8bbwe.msixbundle
 ```
 
-[![Installing Windows Terminal on Windows Server 2022](~/assets/images/WinServwe2022InstallWinTerm.jpg)](https://youtu.be/cHDPDjFHBUk?si=PeRTlaX3CZnBMMxb "Installing Windows Terminal on Windows Server 2022")
+[![Installing Windows Terminal on Windows Server 2022](../../assets/images/WinServwe2022InstallWinTerm.jpg) WinServwe2022InstallWinTerm.jpg)](https://youtu.be/cHDPDjFHBUk?si=PeRTlaX3CZnBMMxb "Installing Windows Terminal on Windows Server 2022")
