@@ -25,7 +25,7 @@ So once that was set up, it was then a case of popping in the URLs to Presence L
 
 I haven't gone into lots of details about how to do this here as it's covered in the links provided.
 
-![UI View](../assets/images/eff03ef5d6058a53033897a43603b8f4381b1b78.png)
+![UI View](../_astro/eff03ef5d6058a53033897a43603b8f4381b1b78.87fd0b82.png)
 
 Screen Capture of Presence Application and Custom API
 
