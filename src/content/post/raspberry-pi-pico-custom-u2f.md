@@ -8,7 +8,6 @@ tags:
 image: "~/assets/images/Build Your Own U2F Firmware.png"
 excerpt: "We take a look at the process of building a custom U2F file to allow easy deployment to many Micro Controllers"
 ---
-
 ### Why
 
 You may be wondering why you would want to do this, I looked into how to do this when the question was posted on a Discord community server.  They had several Pico's that they wanted to use with various demo files on and didn't like the prospect of doing them one by one.
@@ -29,7 +28,7 @@ apt-get install cmake
 apt-get install python3
 ```
 
-Now clone micropython and update it with the mbedtl library
+Now clone Micro Python and update it with the mbedtl library
 
 ```bash
 cd /var/host
@@ -37,7 +36,7 @@ git clone https://github.com/micropython/micropython.git
 git submodule update --init lib/mbedtl
 ```
 
-Now enter the micropyton folder and make
+Now enter the Micro Python folder and make
 
 ```bash
 cd micropython

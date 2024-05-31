@@ -1,12 +1,14 @@
 ---
-title: "Install Windows Terminal on Windows Server 2022"
-publishDate: "2023-12-03"
+title: Install Windows Terminal on Windows Server 2022
+publishDate: 2023-12-03
 author: Wayne
-tags: 
-  - "Windows Terminal"
-  - "Windows Server 2023"
-image: "~/assets/images/WinServwe2022InstallWinTerm.jpg"
-excerpt: "Installing Windows Terminal on Windows Server 2022"
+tags:
+  - Windows
+  - Terminal
+  - Windows
+  - Server
+image: ~/assets/images/WinServwe2022InstallWinTerm.jpg
+excerpt: Installing Windows Terminal on Windows Server 2022
 ---
 
 Windows Server 2022 isn't installed in by default, here are the commands to install.  
