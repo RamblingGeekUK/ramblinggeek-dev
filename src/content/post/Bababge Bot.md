@@ -14,6 +14,8 @@ A little while back, I was looking at Babbage Bear and figured it would be aweso
 
 If you are not familiar with [Babbage](https://www.raspberrypi.com/news/meet-babbage-the-bear) [Bear](https://www.raspberrypi.com/news/meet-babbage-the-bear), he is the mascot for the Raspberry Pi Foundation and he's named after [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage), you can pick up your own from the [Raspberry Pi Store](https://thepihut.com/products/babbage-bear-official-raspberry-pi-mascot).
 
+[https://youtube.com/shorts/n66tVJGCM9Y?si=tw3Eut0gRdOx_-iV](Babage Moving)
+
 ## Making him move
 
 I have never attempted anything like this before. So I figured I needed two servos and something for them to push against. I ended up designing a basic block for the servos to sit in and have something to push against.
