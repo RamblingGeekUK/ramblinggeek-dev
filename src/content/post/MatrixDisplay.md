@@ -12,9 +12,9 @@ excerpt: "RGB Matrix easy hardware, software not so much"
 
 What you will need
 
-[Interstate75 - Driver Board](https://shop.pimoroni.com/products/interstate-75-w?variant=40453881299027)
+* [Interstate75 - Driver Board](https://shop.pimoroni.com/products/interstate-75-w?variant=40453881299027)
 
-[RGB Matrix Display](https://thepihut.com/products/rgb-full-colour-led-matrix-panel-4mm-pitch-64x32-pixels
+* [RGB Matrix Display](https://thepihut.com/products/rgb-full-colour-led-matrix-panel-4mm-pitch-64x32-pixels
 )
 
 The Interstate 75 Driver board makes it simple to get the screen up and running. Without one of these, you would have to manually wire up each pin on a Raspberry Pi Pico, ask me how I know. 😜

@@ -14,7 +14,14 @@ A little while back, I was looking at Babbage Bear and figured it would be aweso
 
 If you are not familiar with [Babbage](https://www.raspberrypi.com/news/meet-babbage-the-bear) [Bear](https://www.raspberrypi.com/news/meet-babbage-the-bear), he is the mascot for the Raspberry Pi Foundation and he's named after [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage), you can pick up your own from the [Raspberry Pi Store](https://thepihut.com/products/babbage-bear-official-raspberry-pi-mascot).
 
-[https://youtube.com/shorts/n66tVJGCM9Y?si=tw3Eut0gRdOx_-iV](Babage Moving)
+<div style="display: flex; justify-content: center; align-items: center;">
+  <iframe width="315" height="560" src="https://www.youtube.com/embed/n66tVJGCM9Y" 
+title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; 
+encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+
 
 ## Making him move
 
