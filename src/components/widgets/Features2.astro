@@ -11,12 +11,14 @@ export interface Props {
   title?: string;
   subtitle?: string;
   highlight?: string;
+  note?: string;
   items: Array<Item>;
 }
 
 const {
   title = await Astro.slots.render('title'),
   subtitle = await Astro.slots.render('subtitle'),
+  note = await Astro.slots.render('note'),
   highlight,
   items = [],
 } = Astro.props;
@@ -48,6 +50,12 @@ const {
               <p
                 class="max-w-3xl mx-auto sm:text-center text-xl text-muted dark:text-slate-400"
                 set:html={subtitle}
+              />
+            )}
+            {note && (
+              <p
+                class="max-w-2xl mx-auto sm:text-center text-xl text-muted dark:text-slate-500"
+                set:html={note}
               />
             )}
           </div>
